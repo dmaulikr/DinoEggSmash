@@ -12,6 +12,8 @@
 @interface MainMenu : UIViewController
 {
         GADBannerView *bannerView_;
+   
+    __weak IBOutlet UIImageView *imageView;
 }
 @end
 

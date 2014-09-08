@@ -13,6 +13,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+       imageView.image = [UIImage imageNamed:@"Land.png"];
     
     bannerView_ = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
     
@@ -21,8 +22,11 @@
     [self.view addSubview:bannerView_];
     [bannerView_ loadRequest:[GADRequest request]];
     
-
+ 
+  
 }
+
+
 
 - (BOOL)prefersStatusBarHidden {
     return YES;

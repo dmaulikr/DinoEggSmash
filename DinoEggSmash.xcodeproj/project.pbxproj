@@ -18,7 +18,6 @@
 		4359174D19BB97C200E4518B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4359174C19BB97C200E4518B /* ViewController.m */; };
 		4359175019BB97C200E4518B /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4359174F19BB97C200E4518B /* MyScene.m */; };
 		4359175219BB97C200E4518B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4359175119BB97C200E4518B /* Spaceship.png */; };
-		4359175419BB97C200E4518B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4359175319BB97C200E4518B /* Images.xcassets */; };
 		4359175B19BB97C200E4518B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4359175A19BB97C200E4518B /* XCTest.framework */; };
 		4359175C19BB97C200E4518B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4359173419BB97C200E4518B /* Foundation.framework */; };
 		4359175D19BB97C200E4518B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4359173819BB97C200E4518B /* UIKit.framework */; };
@@ -77,6 +76,7 @@
 		43A25C1B19BE2A94005BEA2E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1A19BE2A94005BEA2E /* StoreKit.framework */; };
 		43A25C1D19BE2A9B005BEA2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1C19BE2A9B005BEA2E /* SystemConfiguration.framework */; };
 		43A25C2019BE315F005BEA2E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A25C1F19BE315F005BEA2E /* MainMenu.m */; };
+		43A25C2219BE44C8005BEA2E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A25C2119BE44C8005BEA2E /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +107,6 @@
 		4359174E19BB97C200E4518B /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		4359174F19BB97C200E4518B /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
 		4359175119BB97C200E4518B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		4359175319BB97C200E4518B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4359175919BB97C200E4518B /* DinoEggSmashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinoEggSmashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4359175A19BB97C200E4518B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4359176219BB97C200E4518B /* DinoEggSmashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinoEggSmashTests-Info.plist"; sourceTree = "<group>"; };
@@ -184,6 +183,7 @@
 		43A25C1C19BE2A9B005BEA2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		43A25C1E19BE315F005BEA2E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		43A25C1F19BE315F005BEA2E /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		43A25C2119BE44C8005BEA2E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +222,7 @@
 		4359172819BB97C200E4518B = {
 			isa = PBXGroup;
 			children = (
+				43A25C2119BE44C8005BEA2E /* Media.xcassets */,
 				435917B619BBBAFD00E4518B /* Eggs */,
 				4359179919BB993F00E4518B /* Grid.atlas */,
 				4359177F19BB993800E4518B /* Levels */,
@@ -286,7 +287,6 @@
 				4359177C19BB98FE00E4518B /* RWTChain.h */,
 				4359177D19BB98FE00E4518B /* RWTChain.m */,
 				4359175119BB97C200E4518B /* Spaceship.png */,
-				4359175319BB97C200E4518B /* Images.xcassets */,
 				4359173D19BB97C200E4518B /* Supporting Files */,
 			);
 			path = DinoEggSmash;
@@ -490,13 +490,13 @@
 				435917E219BBBAFD00E4518B /* RedEggHighLighted.png in Resources */,
 				435917D019BBBAFD00E4518B /* BlueEgg.png in Resources */,
 				4359179619BB993800E4518B /* Mining by Moonlight.mp3 in Resources */,
-				4359175419BB97C200E4518B /* Images.xcassets in Resources */,
 				435917D519BBBAFD00E4518B /* BrownEgg@2.png in Resources */,
 				435917D619BBBAFD00E4518B /* BrownEggHighlighted.png in Resources */,
 				435917DA19BBBAFD00E4518B /* GreenEggHighLighted.png in Resources */,
 				43A25C0E19BE2A0C005BEA2E /* README.txt in Resources */,
 				435917D719BBBAFD00E4518B /* BrownEggHighlighted@2.png in Resources */,
 				4359179819BB993800E4518B /* Sprites.atlas in Resources */,
+				43A25C2219BE44C8005BEA2E /* Media.xcassets in Resources */,
 				435917D919BBBAFD00E4518B /* GreenEgg@2.png in Resources */,
 				435917DF19BBBAFD00E4518B /* PurpleEggHighLighted@2.png in Resources */,
 				435917E119BBBAFD00E4518B /* RedEgg@2.png in Resources */,
