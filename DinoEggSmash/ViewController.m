@@ -37,8 +37,16 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
+    bannerView_ = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
+    
+    bannerView_.adUnitID = @"ca-app-pub-2665652330645267/5742224430";
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    [bannerView_ loadRequest:[GADRequest request]];
     
     // Configure the view.
     SKView *skView = (SKView *)self.view;

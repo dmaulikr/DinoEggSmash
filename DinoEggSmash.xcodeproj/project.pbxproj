@@ -67,6 +67,16 @@
 		435917E619BBBAFD00E4518B /* YellowEgg@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 435917CD19BBBAFD00E4518B /* YellowEgg@2.png */; };
 		435917E719BBBAFD00E4518B /* YellowEggHighLighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 435917CE19BBBAFD00E4518B /* YellowEggHighLighted.png */; };
 		435917E819BBBAFD00E4518B /* YellowEggHighLighted@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 435917CF19BBBAFD00E4518B /* YellowEggHighLighted@2.png */; };
+		43A25C0D19BE2A0C005BEA2E /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C0B19BE2A0C005BEA2E /* libGoogleAdMobAds.a */; };
+		43A25C0E19BE2A0C005BEA2E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43A25C0C19BE2A0C005BEA2E /* README.txt */; };
+		43A25C1119BE2A71005BEA2E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1019BE2A71005BEA2E /* AdSupport.framework */; };
+		43A25C1319BE2A77005BEA2E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1219BE2A77005BEA2E /* AudioToolbox.framework */; };
+		43A25C1519BE2A7C005BEA2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1419BE2A7C005BEA2E /* AVFoundation.framework */; };
+		43A25C1719BE2A89005BEA2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1619BE2A89005BEA2E /* CoreTelephony.framework */; };
+		43A25C1919BE2A8E005BEA2E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1819BE2A8E005BEA2E /* MessageUI.framework */; };
+		43A25C1B19BE2A94005BEA2E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1A19BE2A94005BEA2E /* StoreKit.framework */; };
+		43A25C1D19BE2A9B005BEA2E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A25C1C19BE2A9B005BEA2E /* SystemConfiguration.framework */; };
+		43A25C2019BE315F005BEA2E /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A25C1F19BE315F005BEA2E /* MainMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +161,29 @@
 		435917CD19BBBAFD00E4518B /* YellowEgg@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YellowEgg@2.png"; sourceTree = "<group>"; };
 		435917CE19BBBAFD00E4518B /* YellowEggHighLighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowEggHighLighted.png; sourceTree = "<group>"; };
 		435917CF19BBBAFD00E4518B /* YellowEggHighLighted@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YellowEggHighLighted@2.png"; sourceTree = "<group>"; };
+		43A25BFF19BE2A0B005BEA2E /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = ../GADAdMobExtras.h; sourceTree = "<group>"; };
+		43A25C0019BE2A0B005BEA2E /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = ../GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		43A25C0119BE2A0B005BEA2E /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = ../GADAdSize.h; sourceTree = "<group>"; };
+		43A25C0219BE2A0B005BEA2E /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = ../GADBannerView.h; sourceTree = "<group>"; };
+		43A25C0319BE2A0B005BEA2E /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = ../GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		43A25C0419BE2A0B005BEA2E /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = ../GADInAppPurchase.h; sourceTree = "<group>"; };
+		43A25C0519BE2A0B005BEA2E /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = ../GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		43A25C0619BE2A0C005BEA2E /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = ../GADInterstitial.h; sourceTree = "<group>"; };
+		43A25C0719BE2A0C005BEA2E /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = ../GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		43A25C0819BE2A0C005BEA2E /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADModules.h; path = ../GADModules.h; sourceTree = "<group>"; };
+		43A25C0919BE2A0C005BEA2E /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = ../GADRequest.h; sourceTree = "<group>"; };
+		43A25C0A19BE2A0C005BEA2E /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = ../GADRequestError.h; sourceTree = "<group>"; };
+		43A25C0B19BE2A0C005BEA2E /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = ../libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		43A25C0C19BE2A0C005BEA2E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../README.txt; sourceTree = "<group>"; };
+		43A25C1019BE2A71005BEA2E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		43A25C1219BE2A77005BEA2E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43A25C1419BE2A7C005BEA2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43A25C1619BE2A89005BEA2E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		43A25C1819BE2A8E005BEA2E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		43A25C1A19BE2A94005BEA2E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		43A25C1C19BE2A9B005BEA2E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		43A25C1E19BE315F005BEA2E /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		43A25C1F19BE315F005BEA2E /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,10 +191,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A25C1D19BE2A9B005BEA2E /* SystemConfiguration.framework in Frameworks */,
+				43A25C1B19BE2A94005BEA2E /* StoreKit.framework in Frameworks */,
+				43A25C1919BE2A8E005BEA2E /* MessageUI.framework in Frameworks */,
+				43A25C1719BE2A89005BEA2E /* CoreTelephony.framework in Frameworks */,
 				4359173719BB97C200E4518B /* CoreGraphics.framework in Frameworks */,
+				43A25C1519BE2A7C005BEA2E /* AVFoundation.framework in Frameworks */,
+				43A25C1319BE2A77005BEA2E /* AudioToolbox.framework in Frameworks */,
+				43A25C1119BE2A71005BEA2E /* AdSupport.framework in Frameworks */,
 				4359173919BB97C200E4518B /* UIKit.framework in Frameworks */,
 				4359173B19BB97C200E4518B /* SpriteKit.framework in Frameworks */,
 				4359173519BB97C200E4518B /* Foundation.framework in Frameworks */,
+				43A25C0D19BE2A0C005BEA2E /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +246,13 @@
 		4359173319BB97C200E4518B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43A25C1C19BE2A9B005BEA2E /* SystemConfiguration.framework */,
+				43A25C1A19BE2A94005BEA2E /* StoreKit.framework */,
+				43A25C1819BE2A8E005BEA2E /* MessageUI.framework */,
+				43A25C1619BE2A89005BEA2E /* CoreTelephony.framework */,
+				43A25C1419BE2A7C005BEA2E /* AVFoundation.framework */,
+				43A25C1219BE2A77005BEA2E /* AudioToolbox.framework */,
+				43A25C1019BE2A71005BEA2E /* AdSupport.framework */,
 				4359173419BB97C200E4518B /* Foundation.framework */,
 				4359173619BB97C200E4518B /* CoreGraphics.framework */,
 				4359173819BB97C200E4518B /* UIKit.framework */,
@@ -217,9 +265,12 @@
 		4359173C19BB97C200E4518B /* DinoEggSmash */ = {
 			isa = PBXGroup;
 			children = (
+				43A25C0F19BE2A1F005BEA2E /* Admob */,
 				4359174519BB97C200E4518B /* AppDelegate.h */,
 				4359174619BB97C200E4518B /* AppDelegate.m */,
 				4359174819BB97C200E4518B /* Main.storyboard */,
+				43A25C1E19BE315F005BEA2E /* MainMenu.h */,
+				43A25C1F19BE315F005BEA2E /* MainMenu.m */,
 				4359174B19BB97C200E4518B /* ViewController.h */,
 				4359174C19BB97C200E4518B /* ViewController.m */,
 				4359174E19BB97C200E4518B /* MyScene.h */,
@@ -327,6 +378,27 @@
 			path = Eggs;
 			sourceTree = "<group>";
 		};
+		43A25C0F19BE2A1F005BEA2E /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				43A25BFF19BE2A0B005BEA2E /* GADAdMobExtras.h */,
+				43A25C0019BE2A0B005BEA2E /* GADAdNetworkExtras.h */,
+				43A25C0119BE2A0B005BEA2E /* GADAdSize.h */,
+				43A25C0219BE2A0B005BEA2E /* GADBannerView.h */,
+				43A25C0319BE2A0B005BEA2E /* GADBannerViewDelegate.h */,
+				43A25C0419BE2A0B005BEA2E /* GADInAppPurchase.h */,
+				43A25C0519BE2A0B005BEA2E /* GADInAppPurchaseDelegate.h */,
+				43A25C0619BE2A0C005BEA2E /* GADInterstitial.h */,
+				43A25C0719BE2A0C005BEA2E /* GADInterstitialDelegate.h */,
+				43A25C0819BE2A0C005BEA2E /* GADModules.h */,
+				43A25C0919BE2A0C005BEA2E /* GADRequest.h */,
+				43A25C0A19BE2A0C005BEA2E /* GADRequestError.h */,
+				43A25C0B19BE2A0C005BEA2E /* libGoogleAdMobAds.a */,
+				43A25C0C19BE2A0C005BEA2E /* README.txt */,
+			);
+			name = Admob;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,6 +494,7 @@
 				435917D519BBBAFD00E4518B /* BrownEgg@2.png in Resources */,
 				435917D619BBBAFD00E4518B /* BrownEggHighlighted.png in Resources */,
 				435917DA19BBBAFD00E4518B /* GreenEggHighLighted.png in Resources */,
+				43A25C0E19BE2A0C005BEA2E /* README.txt in Resources */,
 				435917D719BBBAFD00E4518B /* BrownEggHighlighted@2.png in Resources */,
 				4359179819BB993800E4518B /* Sprites.atlas in Resources */,
 				435917D919BBBAFD00E4518B /* GreenEgg@2.png in Resources */,
@@ -468,6 +541,7 @@
 				4359177819BB98B200E4518B /* RWTTIle.m in Sources */,
 				4359174D19BB97C200E4518B /* ViewController.m in Sources */,
 				4359177B19BB98D800E4518B /* RWTSwap.m in Sources */,
+				43A25C2019BE315F005BEA2E /* MainMenu.m in Sources */,
 				4359177E19BB98FE00E4518B /* RWTChain.m in Sources */,
 				4359174719BB97C200E4518B /* AppDelegate.m in Sources */,
 				4359177219BB985E00E4518B /* RWTCookie.m in Sources */,
@@ -599,6 +673,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DinoEggSmash/DinoEggSmash-Prefix.pch";
 				INFOPLIST_FILE = "DinoEggSmash/DinoEggSmash-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -613,6 +693,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DinoEggSmash/DinoEggSmash-Prefix.pch";
 				INFOPLIST_FILE = "DinoEggSmash/DinoEggSmash-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -678,6 +764,7 @@
 				4359176C19BB97C200E4518B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4359176D19BB97C200E4518B /* Build configuration list for PBXNativeTarget "DinoEggSmashTests" */ = {
 			isa = XCConfigurationList;
@@ -686,6 +773,7 @@
 				4359176F19BB97C200E4518B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
